@@ -1,0 +1,32 @@
+# WordPress / WooCommerce (ne pas versionner uploads/sites)
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+
+# macOS
+.DS_Store
+
+# Node / PHP vendors
+node_modules/
+vendor/
+
+# Env & secrets
+.env
+.env.*
+
+# Logs & temporaires
+*.log
+*.tmp
+*.bak
+*~
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Tests/CI artefacts
+coverage/
+phpunit.xml
+phpunit.xml.dist
+reports/
